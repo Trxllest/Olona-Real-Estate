@@ -135,9 +135,20 @@ h1, p {
 
 .cta {
     display: flex;
-    background-color: #3882F6;
+    /* background-color: #3882F6; */
     flex-direction: column;
-    flex: 0 1 300px;
+    /* flex: 0 1 300px; */
+    
+}
+
+.cta h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.cta p {
+    font-size: 12px;
+    color: #E5E7EB;
 }
 
 button {
@@ -160,3 +171,23 @@ footer {
     color: #f9faf8;
 }
 
+.cta-wrapper {
+    /* border-style: solid;
+    border-width: 1px; */
+    background-color: #3882F6;
+    width: 700px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 45px;
+    border-radius: 15px;
+    /* gap: 80px; */
+}
+
+.cta-wrapper button  {
+    border-style: solid;
+    border-color: #f9faf8;
+    max-width: 80px;
+    border-width: 1px;
+}
