@@ -118,6 +118,8 @@ h1, p {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    max-width: 700px;
+    font-weight: 100;
 }
 
 .quote-by {
