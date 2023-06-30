@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 
-h1, h2, p {
+h1, p {
     margin: 0 0 5px 0;
     padding: 0;
 }
@@ -77,7 +77,7 @@ h1, h2, p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px;
+    padding: 20px;
 }
 
 .sxn2-images {
@@ -86,6 +86,21 @@ h1, h2, p {
     text-align: center;
 }
 
+.small-img {
+    max-width: 250px;
+}
+
+.small-img img{
+    max-width: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3882F6;
+    border-radius: 15px;
+}
+
+.section-2 h2 {
+    margin-bottom: 50px;
+}
 
 .section-3 {
     background-color: #E5E7EB;
@@ -107,6 +122,7 @@ h1, h2, p {
 
 .quote-by {
     align-self: flex-end;
+    font-weight: bolder;
 }
 
 .section-4 {
@@ -141,3 +157,4 @@ footer {
     background-color: #1F2937;
     color: #f9faf8;
 }
+
